@@ -38,7 +38,7 @@ const fadeInUp = {
   
   return (
     <div>
-      <section className="relative z-10 py-20 px-4">
+      <section className="relative z-10 py-20 px-4" id="products">
         <motion.div {...fadeInUp} className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">
             Our Products
@@ -70,9 +70,17 @@ const fadeInUp = {
                       <Card className="h-64 bg-black/50 border-purple-500/30 hover:border-purple-400 transition-all duration-300 group hover:scale-105 backdrop-blur-sm">
                         <CardContent className="p-6 ">
                           <div className="relative mb-4">
-                            <div className="w-16 h-16 bg-gradient-to-r from-purple-600 to-purple-400 rounded-lg flex items-center justify-center group-hover:animate-pulse">
-                              <Brain className="h-8 w-8 text-white" />
+                            <div className="w-16 h-16">
+                              {product.logo ? (
+                                <img src={product.logo} alt={`${product.name} logo`} className="h-16 w-16 object-contain" />
+                              ) : (
+                                <div className="w-16 h-16 bg-gradient-to-r from-purple-600 to-purple-400 rounded-lg flex items-center justify-center group-hover:animate-pulse">
+                                  <Brain className="h-8 w-8 text-white" />
+                                </div>
+
+                              )}
                             </div>
+
                             <span className="absolute -top-2 -right-2 bg-purple-500 text-xs px-2 py-1 rounded-full">
                               {product.status}
                             </span>

@@ -29,17 +29,10 @@ export default function About() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
                 <p className="text-lg text-gray-300 leading-relaxed">
-                  XyphX is a budding, service-based tech company with a bold
-                  ambition — to transform into a revolutionary tech product
-                  powerhouse. We're building AI-driven solutions that are smart,
-                  futuristic, and ready to redefine industries.
+                  XyphX is a budding, service-based tech company with a bold ambition — to transform into a revolutionary tech product powerhouse. We’re building technology-driven solutions that are smart, futuristic, and ready to redefine industries.
                 </p>
                 <p className="text-lg text-gray-300 leading-relaxed">
-                  Our journey began with a vision to bridge the gap between
-                  current technology and the limitless possibilities of
-                  artificial intelligence. Today, we stand at the forefront of
-                  innovation, crafting solutions that don't just meet today's
-                  needs but anticipate tomorrow's challenges.
+                  Our journey began with a vision to bridge the gap between current technology and the vast, untapped potential of digital innovation. Today, we stand at the forefront of progress, crafting solutions that not only meet today’s demands but are designed with tomorrow in mind.
                 </p>
               </div>
               <motion.div  {...fadeInUp} className="relative">

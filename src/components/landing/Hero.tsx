@@ -67,18 +67,18 @@ export default function Hero() {
                 <Button
                   size="lg"
                   className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 text-lg group transition-all duration-300 hover:scale-105"
-                  onClick={() => scrollToSection("services")}
+                  onClick={() => scrollToSection("products")}
                 >
-                  Explore Our Services
+                  Explore Our Products
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
                 <Button
                   size="lg"
                   variant="outline"
                   className="border-purple-500 text-purple-700 hover:text-white hover:bg-purple-500/10 px-8 py-4 text-lg transition-all duration-300 hover:scale-105"
-                  onClick={() => scrollToSection("contact")}
+                  onClick={() => scrollToSection("services")}
                 >
-                  Join the Journey
+                  XyphX Lauchpad
                 </Button>
               </div>
             </div>

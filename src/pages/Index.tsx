@@ -15,19 +15,15 @@ import Background from '@/components/landing/Background';
 
 const Index = () => {
 
-
- 
-
-
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden">
       <Background />
       <Hero/>
       <About/>
-      <Services/>
+      <Products/>
       <Vision/>
       <Roadmap/>
-      <Products/>
+      <Services/>
       <Join/>
      <Footer/>
     </div>
